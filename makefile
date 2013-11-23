@@ -15,4 +15,3 @@ H_FILES = Instructions.h LookupTables.h Parser.h Symbols.h Utils.h
 
 assembler: $(C_FILES) $(H_FILES)
 	$(CC) $(CFLAGS) -o $(EXECUTABLE) $(C_FILES) $(H_FILES)
-
