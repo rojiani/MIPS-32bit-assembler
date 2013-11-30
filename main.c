@@ -466,7 +466,6 @@ int main(int argc, const char* argv[]) {
                 free(mCode64);
             }
         }
-        //free(mCode32);
         if (!isValidInstr(mnem)) { continue; }; // skip PC increment
         printf("\nINCREMENTING PC\n");
         PC += 4;
