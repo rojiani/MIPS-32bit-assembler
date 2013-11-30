@@ -6,26 +6,22 @@
 //  Copyright (c) 2013 NKR. All rights reserved.
 //
 
-#ifndef MIPS_Assembler_LookupTables_h
-#define MIPS_Assembler_LookupTables_h
-
-#include <stdbool.h>
-
-
 /** 
  * A series of lookup tables for the values associated with a mnemonic or register.
  * Using these tables, the corresponding value can be retrieved for a key through
  * sequential search.
  */
 
+#ifndef MIPS_Assembler_LookupTables_h
+#define MIPS_Assembler_LookupTables_h
 
+#include <stdbool.h>
 
 #define NUM_REGISTERS   32
 #define NUM_R_TYPE      11
 #define NUM_I_TYPE      11
 #define NUM_J_TYPE       2
 #define NUM_INSTRXNS    28
-
 
 
 
