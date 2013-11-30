@@ -101,18 +101,6 @@ int main(int argc, const char* argv[]) {
         exit(EXIT_FAILURE);
         fclose(outfp);
     }
-
-    
-    // if input & output filenames are the same
-    /**
-     if (strcmp(argv[2], argv[3]) == 0) {
-     FILE* infp = fopen(argv[2], "r+");
-     if (infp == NULL) {
-     printf("Invalid input file.\n");
-     exit(EXIT_FAILURE);
-     }
-     FILE* outfp = fopen(argv[3], "w");
-     */
     
     
     // PARSER PASS 1 - Remove Comments.
